@@ -13,7 +13,7 @@ app.use(express.json());
 // Task2: create mongoDB connection 
 
 //mongoose.connect('mongodb://127.0.0.1:27017/EmployeeDB')
-mongoose.connect('mongodb+srv://anishakb4:7736199279@cluster0.a3g4d20.mongodb.net/EmployeeDB?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://anishakb4:7736199279@cluster0.aj0wsfj.mongodb.net/EmployeeDB?retryWrites=true&w=majority')
 
 .then(() => {
     console.log("Connected to EmployeeDB");
